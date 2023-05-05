@@ -21,9 +21,7 @@ function App() {
           <Route path="/" element={<Navbar />}>
           <Route path="/home" element={<Home />} />
             <Route path="/home/code" element={<Code />} />
-            <Route path="/home/code/lastpage/:id">
-              <DynamicLastPage />
-            </Route>
+            <Route path="/home/code/lastpage/:id" element={<DynamicLastPage />} />
             <Route path="/home/staffcode" element={<StaffCode />} />
             <Route path="/home/bloodgroup" element={<BloodGroup />} />
             {/* <Route path="practice3" element={<Practice3 />} /> */}

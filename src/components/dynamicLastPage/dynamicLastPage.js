@@ -9,7 +9,7 @@ const DynamicLastPage = (props)=>{
 	console.log(params);
     return(
         <>
-<p>lllllllllllllllllllllllllllllll</p>
+<p style={{marginTop: "300px"}}>lllllllllllllllllllllllllllllll</p>
         </>
     )
 }
